@@ -1,0 +1,4 @@
+# Korg NanoKontrol2 Chataigne-Module
+A Chataigne module for Korg NanoKontrol2
+
+the NanoKontrol2 should be in Mackie-Control-Mode (as Cubase etc...)

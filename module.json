@@ -1,0 +1,162 @@
+{
+	"name":"Korg Nanokontrol2",
+	"type":"MIDI",
+	"path":"Hardware",
+	
+	"version":"1.0.1",
+	"description":"Special MIDI Module for Korg Nanokontrol2 controlers",
+	"url":"",
+	"downloadURL":"",
+	
+	"hasInput":true,
+	"hasOutput":true, 
+
+	"hideDefaultCommands":true,
+
+
+
+	"parameters":
+	{
+		"type":"Container",
+		"FlashOnTouched":{"type":"Boolean"},
+		"FlashOnSolo":{"type":"Boolean"},
+		"stripIndex":{"type":"Integer", "min":0,"max":8},
+		
+	},
+
+	"defaults":
+	{		
+		"devices":["nanoKONTROL2","nanoKONTROL2"],
+		"autoAdd":false
+	},
+
+	"hideDefaultParameters":
+	[
+		"autoAdd",
+		"autoFeedback"
+	],
+
+
+	"scripts":
+	[
+		"nanokontrol.js" ],
+
+	"values":
+	{
+		"type":"Container",
+		
+		
+		"Strips":{
+			"type":"Container",
+			"collapsed":true,
+			"Strip 1":{
+				"type":"Container",
+				"collapsed":true,
+				"RotaryValue": {"type":"Float", "readOnly":true, "min":0, "max":1},
+				"FaderValue":   { "type":"Float", "min":0,"max":1},
+				"Mute": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Solo": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Rec": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}}
+			},
+			"Strip 2":{
+				"type":"Container",
+				"collapsed":true,
+				"RotaryValue": {"type":"Float", "readOnly":true, "min":0, "max":1},
+				"FaderValue":   { "type":"Float", "min":0,"max":1},
+				"Mute": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Solo": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Rec": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}}
+			},
+			"Strip 3":{
+				"type":"Container",
+				"collapsed":true,
+				"RotaryValue": {"type":"Float", "readOnly":true, "min":0, "max":1},
+				"FaderValue":   { "type":"Float", "min":0,"max":1},
+				"Mute": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Solo": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Rec": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}}
+			},
+			"Strip 4":{
+				"type":"Container",
+				"collapsed":true,
+				"RotaryValue": {"type":"Float", "readOnly":true, "min":0, "max":1},				
+				"FaderValue":   { "type":"Float", "min":0,"max":1},
+				"Mute": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Solo": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Rec": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}}
+			},
+			"Strip 5":{
+				"type":"Container",
+				"collapsed":true,
+				"RotaryValue": {"type":"Float", "readOnly":true, "min":0, "max":1},
+				"FaderValue":   { "type":"Float", "min":0,"max":1},
+				"Mute": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Solo": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Rec": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}}
+			},
+			"Strip 6":{
+				"type":"Container",
+				"collapsed":true,
+				"RotaryValue": {"type":"Float", "readOnly":true, "min":0, "max":1},				
+				"FaderValue":   { "type":"Float", "min":0,"max":1},		
+				"Mute": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Solo": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Rec": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}}
+			},
+			"Strip 7":{
+				"type":"Container",
+				"collapsed":true,
+				"RotaryValue": {"type":"Float", "readOnly":true, "min":0, "max":1},				
+				"FaderValue":   { "type":"Float", "min":0,"max":1},	
+				"Mute": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Solo": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Rec": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}}
+			},
+			"Strip 8":{
+				"type":"Container",
+				"collapsed":true,
+				"RotaryValue": {"type":"Float", "readOnly":true, "min":0, "max":1},
+				"FaderValue":   { "type":"Float", "min":0,"max":1},
+				"Mute": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Solo": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}},
+				"Rec": {"type":"Enum", "readOnly":true, "options": {"off":0, "flash":1, "on":127}}
+			} },
+			
+		"Transport":{
+			"type":"Container",
+			"collapsed":true,
+			"Marker":{"type":"Boolean", "readOnly":true},
+			"Nudge":{"type":"Boolean", "readOnly":true},
+			"Cycle":{"type":"Boolean", "readOnly":true},
+			"Drop":{"type":"Boolean", "readOnly":true},
+			"Replace":{"type":"Boolean", "readOnly":true},
+			"Click":{"type":"Boolean", "readOnly":true},
+			"Solo":{"type":"Boolean", "readOnly":true},
+			"Rewind":{"type":"Boolean", "readOnly":true},
+			"Forward":{"type":"Boolean", "readOnly":true},
+			"Stop":{"type":"Boolean", "readOnly":true},
+			"Play":{"type":"Boolean", "readOnly":true},
+			"RecSet":{"type":"Boolean", "readOnly":true}
+		},
+		
+		"Misc":{
+			"type":"Container",
+			"collapsed":true,
+			"BankPrev":{"type":"Boolean", "readOnly":true},
+			"BankNext":{"type":"Boolean", "readOnly":true},
+			"ChanPrev":{"type":"Boolean", "readOnly":true},
+			"ChanNext":{"type":"Boolean", "readOnly":true},
+			"Left":{"type":"Boolean", "readOnly":true},
+			"Right":{"type":"Boolean", "readOnly":true}
+		}
+	},
+	
+		
+	
+	"commands":
+	{
+	
+	
+		
+	}
+}
