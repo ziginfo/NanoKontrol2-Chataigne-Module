@@ -4,7 +4,7 @@
 	"path":"Hardware",
 	
 	"version":"1.0.1",
-	"description":"Special MIDI Module for Korg Nanokontrol2 controlers",
+	"description":"MIDI Module for Korg Nanokontrol2 controlers",
 	"url":"https://github.com/ziginfo/NanoKontrol2-Chataigne-Module",
 	"downloadURL":"https://github.com/ziginfo/NanoKontrol2-Chataigne-Module",
 	
