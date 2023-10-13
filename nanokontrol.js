@@ -1,3 +1,7 @@
+//This script is based on the "MackieUniversal.js" written by : Guesn
+// https://github.com/Guesn/Mackie-Control-Chataigne-Module
+// thanks for his great job !!
+
 
 function init()
 {
