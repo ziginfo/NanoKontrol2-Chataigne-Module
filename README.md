@@ -1,7 +1,6 @@
 # Korg NanoKontrol2 MC Chataigne-Module
 A Chataigne module for Korg NanoKontrol2 in Mackie-Control-Mode
-
-the scripts are based on the "Mackie-Control-Chataigne-Module" made by "Guesn"....
+(the scripts is based on the "Mackie-Control-Chataigne-Module" made by "Guesn"....thaks for his job !)
 
 the NanoKontrol2 should be in Mackie-Control-Mode (as Cubase etc...)
 
