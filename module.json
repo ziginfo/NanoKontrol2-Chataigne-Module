@@ -20,7 +20,7 @@
 		"type":"Container",
 		"FlashOnTouched":{"type":"Boolean"},
 		"FlashOnSolo":{"type":"Boolean"},
-		"stripIndex":{"type":"Integer", "min":0,"max":8},
+		"stripIndex":{"type":"Integer", "min":0,"max":8}
 		
 	},
 
